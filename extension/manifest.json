@@ -1,0 +1,12 @@
+{
+  "name": "Changer",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["runtime.8d41e85c800ee32f.js", "polyfills.2ed1215fa662cf71.js", "main.e89268187cb1cc8e.js"],
+      "css": ["styles.ef46db3751d8e999.css"]
+    }
+  ]
+}
